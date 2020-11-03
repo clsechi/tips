@@ -1,6 +1,6 @@
 # JS tips
 
-## Dictonary
+## Dictionary
 
 ```js
 // works
