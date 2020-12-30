@@ -1,0 +1,33 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "description": "Some tips",
+  "scripts": {
+    "lint": "npm run lint:md && npm run lint:spell",
+    "lint:md": "markdownlint \"./*.md\"",
+    "lint:spell": "npx cspell \"./*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clsechi/tips.git"
+  },
+  "keywords": [
+    "tips"
+  ],
+  "author": "Carlos Sechi (carlossechi@hotmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clsechi/tips/issues"
+  },
+  "homepage": "https://github.com/clsechi/tips#readme",
+  "devDependencies": {
+    "cspell": "^5.1.1",
+    "husky": "^4.3.6",
+    "markdownlint-cli": "^0.26.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  }
+}

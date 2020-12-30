@@ -18,7 +18,7 @@ const DARK_MODE_ACTIVE = 'dark-mode-active';
 const mapValue = val => (val ? 1 : 0);
 
 /**
- * Get dark mode from localstorage or current app mode
+ * Get dark mode from local storage or current app mode
  *
  * @returns {boolean} If dark mode is enabled
  */
