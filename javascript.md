@@ -17,3 +17,23 @@ const defineHandler = (type, param) => {
 
 defineHandler(type)(param)
 ```
+
+## Init
+
+Run a script file
+
+```js
+(async function init() {
+  try {
+    console.log('Working');
+
+    // call the initial fuction
+
+    console.log(`Done! :)`);
+    process.exit(0);
+  } catch (err) {
+    console.error('Error on init', err);
+    process.exit(1);
+  }
+}());
+```
