@@ -27,7 +27,7 @@ Run a script file
   try {
     console.log('Working');
 
-    // call the initial fuction
+    // call the initial function
 
     console.log(`Done! :)`);
     process.exit(0);

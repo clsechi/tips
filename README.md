@@ -6,6 +6,6 @@ Not everything written here is 100% correct, I just want to share my ideas with 
 
 Contributions are welcome.
 
-- [JavaScript](./javascript.md)
+- [JavaScript](./src/javascript.md)
 
-- [Vue](./vue.md)
+- [Vue](./src/vue.md)
