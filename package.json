@@ -4,8 +4,8 @@
   "description": "Some tips",
   "scripts": {
     "lint": "npm run lint:md && npm run lint:spell",
-    "lint:md": "markdownlint \"./*.md\"",
-    "lint:spell": "npx cspell \"./*.md\""
+    "lint:md": "markdownlint \"./**/*.md\" --ignore \"node_modules/**/*\"",
+    "lint:spell": "npx cspell lint \"./**/*.md\""
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/clsechi/tips#readme",
   "devDependencies": {
-    "cspell": "^5.1.1",
-    "husky": "^4.3.6",
-    "markdownlint-cli": "^0.26.0"
+    "cspell": "^5.19.1",
+    "husky": "^4.3.8",
+    "markdownlint-cli": "^0.31.1"
   },
   "husky": {
     "hooks": {
